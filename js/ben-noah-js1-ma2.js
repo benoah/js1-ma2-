@@ -32,6 +32,10 @@ function btn() {
 
 document.addEventListener("click", btn);
 
+
+
+
+
 /*
 Question 3
 Refer: lesson 2
@@ -71,7 +75,7 @@ and add a mouseout event listener to it.
 The callback function should remove the class called hover from the button.
 */
 
-const buttonOut = document.querySelector("[data-animal='dog']");
+const buttonOut = document.querySelector("[data-animal='dog']");// element 
 
 buttonOut.addEventListener("mouseout", RemoveClass);
 
@@ -194,7 +198,7 @@ function updateDiv() {
 setInterval(updateDiv, 2000);
 
 
-
+/*
 
 // timen
 
@@ -215,3 +219,4 @@ const intervalId = setInterval(logTime, 1000);
 setTimeout(function()){
     // do stuff
 };
+*/
